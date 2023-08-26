@@ -13,4 +13,5 @@ export const colors = {
     textColor: '#555',
     darkColor: '#000',
     bgColor: '#FFF9E9',
+    lightColor: '#fff'
 }
