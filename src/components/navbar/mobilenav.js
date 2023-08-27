@@ -29,7 +29,7 @@ const Wrapper = styled.div`
     justify-content: space-around;
     align-items: center; 
 
-    gap: 4rem;
+    gap: 3rem;
 
     h3 {
       font-size: 24px;
