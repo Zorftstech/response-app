@@ -80,6 +80,7 @@ export const Button = styled.a`
     
     padding: 20px 40px;
     border-radius: 4px;
+
     background: ${colors.primaryColor};
     color: ${colors.lightColor};
 

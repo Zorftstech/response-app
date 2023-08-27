@@ -68,3 +68,25 @@ export const MainWrapper = styled.div`
     }
 
 `;
+
+export const SubmitButton = styled.button`
+    display: flex;
+    align-items: center;
+    justify-center: center;
+    gap: 10px;
+
+    text-align: center;
+    border: transparent;
+    outline: none;
+    box-shadow: none;
+    
+    padding: 20px 40px;
+    border-radius: 4px;
+    background: ${colors.primaryColor};
+    color: ${colors.lightColor};
+
+    @media (max-width: 992px) {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+`;
