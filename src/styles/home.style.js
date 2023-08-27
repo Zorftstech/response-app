@@ -27,8 +27,8 @@ export const HeroWrapper = styled.section`
         line-height: normal;
 
         @media (max-width: 992px) {
-            font-size: 26px;
-            line-height: 34px;
+            font-size: 36px;
+            line-height: 46px;
         }
     }
     p {

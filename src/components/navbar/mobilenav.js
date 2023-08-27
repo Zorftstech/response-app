@@ -10,6 +10,9 @@ export default function MobileNav({ toggleSideBar }) {
     return (
         <Wrapper>
           <Image src={logo} alt={'logo'}/>
+
+          <h3>response app</h3>
+
           <div className='box'>
               <MdOutlineMenu
                   size={"1.4rem"}
@@ -17,25 +20,30 @@ export default function MobileNav({ toggleSideBar }) {
                   onClick={toggleSideBar}
               />
           </div>
-            {/* <div className='flex-box'>
-            </div> */}
         </Wrapper>
     )
 }
 
 const Wrapper = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center; 
-    margin-bottom: .8rem;
-  .flex-box {
 
-  }
+    gap: 4rem;
+
+    h3 {
+      font-size: 24px;
+      font-weight: 600;
+      color: ${colors.primaryColor};
+
+      /* margin: 0 4rem; */
+    }
+
   .box {
+    /* margin-left: 170px; */
     background: ${colors.primaryColor};
     padding: .6rem; 
     border-radius: 3px;
-
-    
+    cursor: pointer;
   }
 `;

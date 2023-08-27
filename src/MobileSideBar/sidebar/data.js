@@ -1,58 +1,53 @@
 import {
-	MdInfoOutline,
-	MdKeyboardArrowRight,
-	MdLineWeight,
-	MdOutlineHome,
-	MdOutlineKeyboardArrowDown,
-	MdOutlineMenuBook,
-	MdOutlineMiscellaneousServices,
-	MdOutlinePersonPin,
-	MdWorkHistory,
+	MdOutlineHome
 } from "react-icons/md";
-import { BsJournalBookmarkFill, BsPencilSquare } from "react-icons/bs";
-import { FaBlogger, FaIndustry } from "react-icons/fa";
+import { BsInfoSquareFill } from "react-icons/bs";
+import { FaUsers } from "react-icons/fa";
+import { GrServices } from 'react-icons/gr'
+import { BiSolidHome } from 'react-icons/bi'
+import { colors } from "@/styles/theme";
 
-export const ServicesData = [
-	{
-		title: "Home",
-		path: "/",
-		icon: <MdOutlineHome />,
-	},
-	{
-		title: "About",
-		path: "#",
-		icon: <MdOutlinePersonPin />,
-	},
-	{
-		title: "Our Services",
-		path: "/",
-		icon: <MdOutlineMenuBook />,
-	},
-	{
-		title: "Teams",
-		path: "#",
-		icon: <BsPencilSquare />,
-	},
-];
+// export const ServicesData = [
+// 	{
+// 		title: "Home",
+// 		path: "/",
+// 		icon: <MdOutlineHome />,
+// 	},
+// 	{
+// 		title: "About",
+// 		path: "#",
+// 		icon: <MdOutlinePersonPin />,
+// 	},
+// 	{
+// 		title: "Our Services",
+// 		path: "/",
+// 		icon: <MdOutlineMenuBook />,
+// 	},
+// 	{
+// 		title: "Teams",
+// 		path: "#",
+// 		icon: <BsPencilSquare />,
+// 	},
+// ];
 export const SidebarData = [
 	{
 		title: "Home",
 		path: "/",
-		icon: <MdOutlineHome fontSize={"1.6rem"} />,
+		icon: <BiSolidHome fontSize={"1.6rem"} />,
 	},
 	{
 		title: "About us",
 		path: "#",
-		icon: <MdWorkHistory fontSize={"1.6rem"} />,
+		icon: <BsInfoSquareFill fontSize={"1.6rem"} color='#000' />,
 	},
 	{
 		title: "Our Services",
 		path: "/",
-		icon: <MdOutlineMenuBook fontSize={"1.6rem"} />,
+		icon: <GrServices fontSize={"1.6rem"} />,
 	},
 	{
 		title: "Team",
 		path: "#",
-		icon: <FaBlogger fontSize={"1.6rem"} />,
+		icon: <FaUsers fontSize={"1.6rem"} />,
 	},
 ];

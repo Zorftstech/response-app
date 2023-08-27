@@ -2,25 +2,22 @@ import { styled } from "styled-components";
 import { colors } from "./theme";
 
 export const Container = styled.div`
-    width: 100%;
-    padding: 1.4rem 3rem;
-    
+
     @media (max-width: 992px) {
         padding: 1rem;
         display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
     .mobile-bottom {
-        @media (min-width: 1142px) {
-            display: none;
-            width: 100%;
-        }
+        display: none;
 
         @media (max-width: 992px) {
-            margin-top: -160px;
+            margin-top: -180px;
             width: 100%;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             flex-direction: row;
         }
@@ -28,12 +25,13 @@ export const Container = styled.div`
 `;
 export const Wrapper = styled.div`
     width: 100%;
+    padding: 1.4rem 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     @media (max-width: 992px) {
-        display: none;
+        display: none !important;
     }
 
 `;
