@@ -6,10 +6,6 @@ export const Container = styled.div`
     padding: 1.4rem 3rem;
     
     @media (max-width: 992px) {
-        padding: 1rem 1.5rem;
-    }
-    
-    @media (max-width: 992px) {
         padding: 1rem;
         display: flex;
 
@@ -17,6 +13,7 @@ export const Container = styled.div`
     .mobile-bottom {
         @media (min-width: 1142px) {
             display: none;
+            width: 100%;
         }
 
         @media (max-width: 992px) {

@@ -16,9 +16,9 @@ export default function Navbar({ toggleSideBar }) {
                 </Logo>
 
                 <NavLinks>
-                    <Navlink>Our services</Navlink>
-                    <Navlink>About us</Navlink>
-                    <Navlink>Team</Navlink>
+                    <Navlink href="#">Our services</Navlink>
+                    <Navlink href="#">About us</Navlink>
+                    <Navlink href="#">Team</Navlink>
                 </NavLinks>
 
                 <Button href="#waitlist">
