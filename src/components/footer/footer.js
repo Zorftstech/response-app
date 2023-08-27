@@ -48,6 +48,8 @@ export default function Footer() {
                     <BsTwitter />
                 </Icons>
             </SocialIcons>
+
+            
         </Wrapper>
     )
 }

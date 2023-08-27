@@ -7,6 +7,12 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: start;
+
+    @media (max-width: 992px) {
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
 `;
 
 export const Logo = styled.div`
@@ -17,6 +23,10 @@ export const Logo = styled.div`
     font-size: 24px;
     font-weight: 600;
     color: ${colors.primaryColor};
+
+    @media (max-width: 992px) {
+        margin-bottom: 1rem;
+    }
 `;
 
 export const FooterLinks = styled.div`
@@ -35,6 +45,10 @@ export const FooterLinks = styled.div`
         }
     }
 
+    @media (max-width: 992px) {
+        grid-template-columns: 1fr;
+    }
+
 `;
 
 export const FootLink = styled.a`
@@ -42,7 +56,6 @@ export const FootLink = styled.a`
     font-weight: 400;
     margin-top: 1rem;
     color: ${colors.textColor};
-    font-weight: 400;
 
     :hover {
         font-weight: 700;
@@ -57,6 +70,10 @@ export const SocialIcons = styled.div`
     justify-content: start;
     align-items: center;
     gap: 1rem;
+
+    @media (max-width: 992px) {
+        margin-top: 1.4rem;
+    }
 `;
 
 export const Icons = styled.a`

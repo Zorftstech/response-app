@@ -1,12 +1,44 @@
 import { styled } from "styled-components";
 import { colors } from "./theme";
 
-export const Wrapper = styled.div`
+export const Container = styled.div`
+    width: 100%;
     padding: 1.4rem 3rem;
+    
+    @media (max-width: 992px) {
+        padding: 1rem 1.5rem;
+    }
+    
+    @media (max-width: 992px) {
+        padding: 1rem;
+        display: flex;
 
+    }
+    .mobile-bottom {
+        @media (min-width: 1142px) {
+            display: none;
+        }
+
+        @media (max-width: 992px) {
+            margin-top: -160px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+        }
+    }
+`;
+export const Wrapper = styled.div`
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 992px) {
+        display: none;
+    }
+
 `;
 
 export const Logo = styled.div`
@@ -53,4 +85,9 @@ export const Button = styled.a`
     border-radius: 4px;
     background: ${colors.primaryColor};
     color: ${colors.lightColor};
+
+    @media (max-width: 992px) {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
 `;
