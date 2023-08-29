@@ -11,7 +11,7 @@ export default function MobileNav({ toggleSideBar }) {
         <Wrapper>
           <Image src={logo} alt={'logo'}/>
 
-          <h3>response app</h3>
+          <h3>response</h3>
 
           <div className='box'>
               <MdOutlineMenu
@@ -32,7 +32,7 @@ const Wrapper = styled.div`
     gap: 3rem;
 
     h3 {
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 600;
       color: ${colors.primaryColor};
 
